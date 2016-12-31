@@ -7,7 +7,7 @@ function vocabList = getVocabList()
 
 
 %% Read the fixed vocabulary list
-fid = fopen('vocab.txt');
+fid = fopen('../data/vocab.txt');
 
 % Store all dictionary words in cell array vocab{}
 n = 1899;  % Total number of words in the dictionary
